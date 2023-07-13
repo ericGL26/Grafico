@@ -1,0 +1,180 @@
+body {
+    background-color: rgb(114, 246, 246);
+}
+
+.titulo_grafico {
+    margin-left: 20px;
+}
+
+.conteiner_grafico {
+    display: flex;
+    height: 700px;
+    width: 600px;
+    background-color: rgb(170, 167, 167);
+    border-radius: 10px;
+    margin-left: 20px;
+    flex-direction: column;
+}
+
+.div_indicadores{
+    display: flex;
+    height: 400px;
+    width: 40px;
+    background-color: rgb(97, 96, 96);
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+
+.div_coluna_grafico {
+    display: flex;
+    height: 400px;
+    width: 500px;
+    background-color: rgb(128, 127, 127);
+    margin-left: 20px;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+.barra_esquerda_do_grafico {
+    width: 100px;
+    background-color: rgb(2, 202, 202);
+    margin-right: 10px;
+    border-radius: 6px;
+    z-index: 9999;
+}
+
+.barra_direita_do_grafico {
+    width: 100px;
+    background-color: rgb(2, 202, 202);
+    border-radius: 6px;
+    z-index: 9999;
+}
+
+.caixa_grafico {
+    display: flex;
+    
+}
+
+.primeiro_input_grafico {
+    height: 35px;
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+.segundo_input_grafico {
+    height: 35px;
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+
+
+.butao_enviar {
+    display: flex;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: gray;
+    border: 1px solid black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.indicador_teste_css {
+    display: flex;
+    background-color: green;
+    height: 20%;
+}
+
+h2 {
+    background-color: white;
+    height: 16.66%;
+    border-radius: 4px;
+    align-items: center;
+}
+
+.div-com-espaco {
+    position: absolute;
+    background-image: linear-gradient(to bottom, black 1px, transparent 1px);
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    margin-bottom: 20px;
+    background-color: transparent;
+    height: 30px;
+    width: 500px;
+}
+
+
+.div-com-espaco2 {
+    position: absolute;
+    background-image: linear-gradient(to bottom, black 1px, transparent 1px);
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    margin-bottom: 20px;
+    background-color: transparent;
+    height: 30px;
+    width: 500px;
+    top: 374px;
+}
+
+
+.div-com-espaco3 {
+    position: absolute;
+    background-image: linear-gradient(to bottom, black 1px, transparent 1px);
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    margin-bottom: 20px;
+    background-color: transparent;
+    height: 30px;
+    width: 500px;
+    top: 305px;
+}
+
+
+.div-com-espaco4 {
+    position: absolute;
+    background-image: linear-gradient(to bottom, black 1px, transparent 1px);
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    margin-bottom: 20px;
+    background-color: transparent;
+    height: 30px;
+    width: 500px;
+    top: 239px;
+}
+
+.div-com-espaco5 {
+    position: absolute;
+    background-image: linear-gradient(to bottom, black 1px, transparent 1px);
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    margin-bottom: 20px;
+    background-color: transparent;
+    height: 30px;
+    width: 500px;
+    top: 172px;
+}
+
+
+.div-com-espaco6 {
+    position: absolute;
+    background-image: linear-gradient(to bottom, black 1px, transparent 1px);
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    margin-bottom: 20px;
+    background-color: transparent;
+    height: 30px;
+    width: 500px;
+    top: 103px;
+}
